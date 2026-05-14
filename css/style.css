@@ -1,0 +1,77 @@
+/* Set Up Fonts */
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* Apply Font */
+body {
+    font-family: Roboto, sans-serif;
+    padding: 1rem;
+}
+
+/* Heading for H1 */
+h1 {
+  text-align: center;
+}
+
+/* Styling for Stars */
+.checked {
+    color: #f8d974;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+/* Heading Class */
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+/* Three-column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual Bars */
+.bar-5 {
+    width: 60%;
+    height: 18px;
+    background-color: #04aacd;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196f3;
+}
