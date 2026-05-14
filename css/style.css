@@ -63,6 +63,11 @@ h1 {
     color: white;
 }
 
+/* Horizontal Rule */
+hr {
+    border: 3px solid #f1f1f1;
+}
+
 /* Individual Bars */
 .bar-5 {
     width: 60%;
